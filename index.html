@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Royal Travels</title>
+
+		    <link href="https://fonts.googleapis.com/css?family=Trirong" rel="stylesheet">
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+<script src="https://use.fontawesome.com/2ed5a425aa.js"></script>
+	</head>
+	<body>
+
+	<!-- Your Code Goes Here. Remember to remove this comment once you've started, you don't need it :) -->
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<button type="button" class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#" id=logo>Royal Travels</a>
+        </div>
+        <div class="nav-collapse collapse navbar-responsive-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Bus Tickets</a></li>
+        </ul>
+        <ul class="nav navbar-nav pull-right">
+          <li><a href="#" >Print/sms ticket</a></li>
+          <li><a href="#" >Cancel ticket</a></li>
+          <li><a href="#" >Call Us</a></li>
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user "></span> My Account<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a data-target="#myModal" data-toggle="modal">Sign In/Sign Up</a>
+
+							</li>
+							</ul>
+					</li>
+        </ul>
+      </div><!----------nav collapse ends------>
+		</div><!-------------container ends----->
+    </div><!-----end navbar--------->
+
+
+  <div class="container">
+<div class="page-header">
+  <h2 id="pagehead"><strong>ROYAL TRAVELS</strong><small> Online bus ticket booking made easy</small></h2>
+</div><!---page header ends-->
+<div class="carousel slide" id="myCarousel">
+  <!------------Indicators------->
+  <ol class="carousel-indicators">
+    <li class="active data-slide-to="0" data-target="#myCarousel"></li>
+    <li data-slide-to="1" data-target="#myCarousel"></li>
+    <li data-slide-to="2" data-target="#myCarousel"></li>
+
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active" id="slide1">
+      <div class="carousel-caption">
+        <h3>Scania Buses</h3>
+        </div>
+      </div>
+      <div class="item" id="slide2">
+        <div class="carousel-caption">
+          <h3>Volvo Buses</h3>
+          </div>
+        </div>
+        <div class="item" id="slide3">
+          <div class="carousel-caption">
+            <h3>Sleeper Buses</h3>
+            </div>
+          </div>
+ </div><!-----carousel-inner---->
+
+ <!--------controls---------------->
+   <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+	 <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+</div><!---------myCarousel ends------->
+
+
+  <form class="form-horizontal" id="myForm">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">FROM:</label>
+      <div class="col-sm-2">
+        <input type="text" class="form-control" id="from" placeholder="Enter city">
+      </div>
+
+      <label class="control-label col-sm-1" for="to">TO:</label>
+      <div class="col-sm-2">
+        <input type="text" class="form-control" id="to" placeholder="Enter city">
+      </div>
+
+<label class="control-label col-sm-1" for="to">DATE:</label>
+      <div class="col-sm-2">
+        <input type="text" class="form-control" id="date" placeholder="dd-mm-yyyy format">
+      </div>
+
+
+      <div class="col-sm-2">
+        <button type="submit" class="btn btn-danger">Search</button>
+      </div>
+    </div>
+		<hr>
+  </form><!---form ends------>
+<div class="jumbotron">
+	<img src="images/jumbo_offer.png" class="pull-left">
+	<div>
+	 <h3> SAVE UPTO RS 200</h3>
+	 <h4><small> USE Code : ROYALPAY. Pay with Freecharge</small></h4>
+	</div>
+</div><!-----------jumbotron ends-------->
+<h3 id="promiseHead">WE PROMISE TO DELIVER</h3>
+<div class="row">
+  <div class="col-sm-4">
+    <div class="panel panel-warning">
+  <div class="panel-heading">LOWEST PRICES</div>
+    <div class="panel-body">
+  <img src="images/lowest_Fare.png" alt="lowest_Fare">
+  <p> We always give you the lowest price and also provide many discount offers. </p>
+</div>
+</div>
+
+  </div><!--------col-sm-4 ends------->
+  <div class="col-sm-4">
+    <div class="panel panel-info">
+  <div class="panel-heading">SUPERIOR CUSTOMER SERVICE</div>
+    <div class="panel-body">
+  <img src="images/customer_care.png" alt="lowest_Fare">
+  <p> We put our experience to good use and are available to solve your travel issues. </p>
+  </div>
+  </div>
+
+  </div><!--------col-sm-4 ends------->
+
+  <div class="col-sm-4">
+    <div class="panel panel-danger">
+  <div class="panel-heading">MAXIMUM CHOICE</div>
+    <div class="panel-body">
+  <img src="images/maximum_choices.png" alt="lowest_Fare">
+  <p> We give you wide number of travel options across hundreds of routes. </p>
+  </div>
+  </div>
+  	</div><!--------col-sm-4 ends------->
+	</div><!--------row ends------->
+	<hr>
+</div><!--------container ends------->
+<footer>
+	<div class="container">
+	<div class="row">
+		<div class="col-sm-2">
+		 <h6>Copyright &copy; 2015</h6>
+		</div>
+		<div class="col-sm-4">
+			<h6>Follow Us</h6>
+			<ul class="unstyled">
+ 			 <li><a href="#"><i class="fa fa-facebook-official"></i> Facebook</a></li>
+ 			 <li><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+ 			 <li><a href="#"><i class="fa fa-google"></i> Google</a></li>
+ 		 </ul>
+		</div>
+		<div class="col-sm-2">
+		 <h6>Navigation</h6>
+		 <ul class="unstyled">
+			 <li><a href="#">Bus Tickets</a></li>
+			 <li><a href="#">Print/sms Ticket</a></li>
+			 <li><a href="#">Cancel Ticket</a></li>
+			 <li><a href="#">Call Us</a></li>
+		 </ul>
+		</div>
+		<div class="col-sm-4">
+		 <h6>About Royal</h6>
+		 <p>Royal is the name every household speaks of before planning a travel. Dedication and passion in providing utmost comfort for a customer willing to travel has elevated a single taxi to a most powerful travel brand. We have ventured into almost every segment in the travel business and shot to the top as the embodiment in that particular sector.</p>
+		</div>
+	</div><!--------row ends---------->
+</div><!-----------container ends--------->
+</footer>
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+<!--------------------Modal-------------------->
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Sign In/Sign Up</h4>
+				</div><!----------modal-header ends--------->
+				<div class="modal-body">
+
+					<a href="#" class="btn btn-primary"><i class="fa fa-facebook-official"></i> Sign Up with facebook</a><br><br>
+					<a href="#" class="btn btn-danger"><i class="fa fa-google" aria-hidden="true"></i> Sign Up with Google</a>
+					<hr>
+					<a href="#" class="btn btn-default "><i class="fa fa-envelope-o" aria-hidden="true"></i> Sign Up with Mail</a><br>
+
+				</div><!----------modal-body ends--------->
+		<div class="modal-footer">
+			<h5>Already have an account?</h5>
+			<a href="#" id="signin">Sign In</a>
+		</div>
+			</div><!----------modal-content ends--------->
+		</div><!----------modal-dialog ends--------->
+	</div><!--------------myModal ends------------>
+
+	</body>
+</html>
