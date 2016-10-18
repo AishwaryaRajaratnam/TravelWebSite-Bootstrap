@@ -66,7 +66,7 @@
 <div class="carousel slide" id="myCarousel">
   <!------------Indicators------->
   <ol class="carousel-indicators">
-    <li class="active data-slide-to="0" data-target="#myCarousel"></li>
+    <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
     <li data-slide-to="1" data-target="#myCarousel"></li>
     <li data-slide-to="2" data-target="#myCarousel"></li>
 
@@ -95,21 +95,21 @@
 </div><!---------myCarousel ends------->
 
 
-  <form class="form-horizontal" id="myForm">
+  <form class="form-horizontal" id="myForm" method="get" action="searchbus.html">
     <div class="form-group">
       <label class="control-label col-sm-2" for="email">FROM:</label>
       <div class="col-sm-2">
-        <input type="text" class="form-control" id="from" placeholder="Enter city">
+        <input type="text" class="form-control" id="from" name="from" placeholder="Enter city">
       </div>
 
       <label class="control-label col-sm-1" for="to">TO:</label>
       <div class="col-sm-2">
-        <input type="text" class="form-control" id="to" placeholder="Enter city">
+        <input type="text" class="form-control" id="to" name="to" placeholder="Enter city">
       </div>
 
 <label class="control-label col-sm-1" for="to">DATE:</label>
       <div class="col-sm-2">
-        <input type="text" class="form-control" id="date" placeholder="dd-mm-yyyy format">
+        <input type="text" class="form-control" id="date" name="date" placeholder="dd-mm-yyyy format">
       </div>
 
 

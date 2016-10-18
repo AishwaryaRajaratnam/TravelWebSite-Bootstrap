@@ -1,0 +1,17 @@
+body {
+    background-image: url("../../images/bg.png");
+  }
+  #logo{
+    font-family: 'Trirong', serif;
+  }
+  footer {
+    margin-top: 500px;
+  	background: #333;
+  	color: #eee;
+  	font-size: 13px;
+  	padding: 20px;
+  }
+  ul.unstyled{
+    list-style: none;
+    padding: 0;
+  }
