@@ -13,7 +13,9 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
-
+.appinfo{
+  margin-top: 80px;
+}
 
 
 /* --------------------------------------
@@ -25,15 +27,14 @@ Notes:	 Hand coded for Udemy.com
      padding: 20px;
      margin-bottom: 20px;
    }
-   body {
-       background-image: url("../../images/bg.png");
-     }
+
    /* --------------------------------------
       header
       -------------------------------------- */
-.page-header{
-  margin-top:7%;
-}
+      .page-header {
+           background-image: url("../../images/bg.png");
+           margin-top:3.5%;
+         }
 /* --------------------------------------
    Navbar
    -------------------------------------- */
@@ -130,7 +131,7 @@ ul.unstyled{
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
   .page-header{
-    margin-top:15%;
+    margin-top:10%;
   }
   #myCarousel .item{
     height:310px;
